@@ -1,3 +1,4 @@
+global using Bookify.Application.Abstractions.Clock;
 global using Bookify.Application.Abstractions.Messaging;
 global using Bookify.Domain.Abstractions;
 global using Bookify.Domain.Apartments;
