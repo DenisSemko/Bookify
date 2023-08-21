@@ -1,0 +1,16 @@
+global using Bookify.Application.Abstractions.Behaviors;
+global using Bookify.Application.Abstractions.Clock;
+global using Bookify.Application.Abstractions.Data;
+global using Bookify.Application.Abstractions.Email;
+global using Bookify.Application.Abstractions.Messaging;
+global using Bookify.Domain.Abstractions;
+global using Bookify.Domain.Apartments;
+global using Bookify.Domain.Bookings.Events;
+global using Bookify.Domain.Bookings;
+global using Bookify.Domain.Users;
+global using Dapper;
+global using FluentValidation;
+global using MediatR;
+global using Microsoft.Extensions.DependencyInjection;
+global using Microsoft.Extensions.Logging;
+global using System.Data;
