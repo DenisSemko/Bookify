@@ -1,5 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{500B7C87-A78B-4A04-A21A-EF8E97A5D571}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{B584FA22-3AEA-4534-81F5-3F904394C04E}"
@@ -10,6 +11,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bookify.Application", "src\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bookify.Infrastructure", "src\Bookify.Infrastructure\Bookify.Infrastructure.csproj", "{32BE493C-3685-4A60-B820-4B8DB50DFD93}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bookify.API", "src\Bookify.API\Bookify.API.csproj", "{003576B7-838E-4E86-8900-6A6E2405E0E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{714AD2F8-FBA2-41A1-8332-7ECCD2C5C4E9}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{FA16C744-9421-4DC1-85D8-8768696D077C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +26,7 @@ Global
 		{90A8C075-9D2A-4D95-AFCB-E8DB4F7CB3A9} = {500B7C87-A78B-4A04-A21A-EF8E97A5D571}
 		{54F8FCD1-E2E7-45F7-AAC2-F4471F7AF816} = {500B7C87-A78B-4A04-A21A-EF8E97A5D571}
 		{32BE493C-3685-4A60-B820-4B8DB50DFD93} = {500B7C87-A78B-4A04-A21A-EF8E97A5D571}
+		{003576B7-838E-4E86-8900-6A6E2405E0E8} = {500B7C87-A78B-4A04-A21A-EF8E97A5D571}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{90A8C075-9D2A-4D95-AFCB-E8DB4F7CB3A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -33,5 +41,13 @@ Global
 		{32BE493C-3685-4A60-B820-4B8DB50DFD93}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{32BE493C-3685-4A60-B820-4B8DB50DFD93}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{32BE493C-3685-4A60-B820-4B8DB50DFD93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{003576B7-838E-4E86-8900-6A6E2405E0E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{003576B7-838E-4E86-8900-6A6E2405E0E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{003576B7-838E-4E86-8900-6A6E2405E0E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{003576B7-838E-4E86-8900-6A6E2405E0E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA16C744-9421-4DC1-85D8-8768696D077C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA16C744-9421-4DC1-85D8-8768696D077C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA16C744-9421-4DC1-85D8-8768696D077C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA16C744-9421-4DC1-85D8-8768696D077C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
